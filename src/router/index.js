@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Encode from '@/components/Encode'
+import Md5 from '@/components/Md5'
+import Base64 from '@/components/Base64'
+import SHA256 from '@/components/SHA256'
+import AES from '@/components/AES'
 
 Vue.use(Router)
 
@@ -15,8 +18,23 @@ export default new Router({
 	    },
 	    {
 			path: '/ma-hoa-md5-online',
-			name: 'Encode',
-			component: Encode
+			name: 'Md5',
+			component: Md5
+	    },
+	    {
+			path: '/ma-hoa-base64-online',
+			name: 'Base64',
+			component: Base64
+	    },
+	    {
+			path: '/ma-hoa-sha256-online',
+			name: 'SHA256',
+			component: SHA256
+	    },
+	    {
+			path: '/ma-hoa-aes-online',
+			name: 'AES',
+			component: AES
 	    }
   	]
 })

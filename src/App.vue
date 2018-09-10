@@ -3,11 +3,14 @@
         
         <b-navbar toggleable="md" type="dark" variant="info">
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-            <b-navbar-brand href="#">VUE TOOL</b-navbar-brand>
+            <b-navbar-brand>VUE TOOL</b-navbar-brand>
             <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav>
-                    <router-link :to="{ name : 'Home' }" class="nav-link">Link</router-link>
-                    <router-link :to="{ name : 'Encode' }" class="nav-link">Mã hóa MD5</router-link>
+                    <router-link :to="{ name : 'Home' }" class="nav-link">Home</router-link>
+                    <router-link :to="{ name : 'Md5' }" class="nav-link">MD5</router-link>
+                    <router-link :to="{ name : 'Base64' }" class="nav-link">Base64</router-link>
+                    <router-link :to="{ name : 'SHA256' }" class="nav-link">SHA256</router-link>
+                    <router-link :to="{ name : 'AES' }" class="nav-link">AES</router-link>
                 </b-navbar-nav>
                 <!-- Right aligned nav items -->
                 <b-navbar-nav class="ml-auto">
