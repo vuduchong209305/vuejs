@@ -11,6 +11,7 @@
                     <router-link :to="{ name : 'Base64' }" class="nav-link">Base64</router-link>
                     <router-link :to="{ name : 'SHA256' }" class="nav-link">SHA256</router-link>
                     <router-link :to="{ name : 'AES' }" class="nav-link">AES</router-link>
+                    <router-link :to="{ name : 'BMI' }" class="nav-link">Chỉ số BMI</router-link>
                 </b-navbar-nav>
                 <!-- Right aligned nav items -->
                 <b-navbar-nav class="ml-auto">

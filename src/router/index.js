@@ -5,6 +5,7 @@ import Md5 from '@/components/Md5'
 import Base64 from '@/components/Base64'
 import SHA256 from '@/components/SHA256'
 import AES from '@/components/AES'
+import BMI from '@/components/BMI'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
 			path: '/ma-hoa-aes-online',
 			name: 'AES',
 			component: AES
+	    },
+	    {
+			path: '/tinh-chi-so-bmi',
+			name: 'BMI',
+			component: BMI
 	    }
   	]
 })
